@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=refresh-keys.desktop
+Comment=Execute cnchi-start.sh at first boot.
+Exec=/usr/bin/refresh-keys.sh
+GenericName=Refresh Keys
+Terminal=false
+NoDisplay=true
+X-DEEPIN-Autostart-enabled=true
+X-GNOME-Autostart-enabled=true
+

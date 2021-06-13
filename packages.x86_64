@@ -1,0 +1,415 @@
+# ===>>> Linux LTS <<<=== #
+linux-lts
+linux-lts-headers
+
+# ===>>> Keyrings <<<=== #
+archlinux-keyring
+rebornos-keyring
+
+# ===>>> Required by cnchi <<<=== #
+python-bugsnag
+python-maxminddb
+python-geoip2
+geoip2-database
+python-parted
+python-pyparted
+python-libnacl
+python-feedparser
+python-mako
+pam_encfs
+clutter
+clutter-gtk
+clutter-gst
+gstreamer
+python-cairo
+python
+pyalpm
+python-gobject
+python-dbus
+python-defusedxml
+python-requests
+webkit2gtk
+python-whither
+python-lxml
+python-mock
+
+# ===>>> Bluetooth <<<=== #
+bluez
+bluez-utils
+blueman
+
+# ===>>> Utils <<<=== #
+# ncurses partition and disk imaging/cloning progam:
+clonezilla
+# A small and secure static webserver:
+darkhttpd
+# GNU data recovery tool:
+ddrescue
+dhclient
+dialog
+elinks
+ethtool
+exfat-utils
+f2fs-tools
+fping
+# Safe and flexible file-system backup and deployment tool:
+fsarchiver
+gnu-netcat
+gpm
+grml-zsh-config
+gtk3
+hdparm
+irssi
+iptables
+iputils
+iproute2
+lftp
+# Drivers and tools to support ATM networking under Linux:
+linux-atm
+lsscsi
+mc
+# Collection of IPv6 networking utilities:
+ndisc6
+nfs-utils
+nilfs-utils
+nmap
+openconnect
+# Utilities to save and restore used blocks on a partition:
+partclone
+# Partition image saves partition in many formats to an image file:
+partimage
+ppp
+pptpclient
+# An EFI boot manager:
+refind
+rp-pppoe
+sdparm
+sg3_utils
+smartmontools
+tcpdump
+# Checks and undeletes partitions + PhotoRec, signature based recovery tool:
+testdisk
+#vim
+vpnc
+# A dialer program to connect to the internet:
+wvdial
+xl2tpd
+yay
+xcompmgr
+
+# ===>>> Base <<<=== #
+base
+base-devel
+
+# ===>>> Cosmic packages <<<=== #
+rebornos-cosmic-common
+rebornos-cosmic-full-base
+
+# ===>>> rebornos-cosmic-graphic => Semi open here <<<=== #
+accountsservice
+xdg-user-dirs
+cdrtools
+ffmpegthumbnailer
+flatpak-builder
+flatpak
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gstreamer-vaapi
+libdvdcss
+packagekit
+mesa
+mesa-vdpau
+noto-fonts-emoji
+pace
+pavucontrol
+pulseaudio
+pulseaudio-alsa
+tlpui-git
+upower
+xf86-video-fbdev
+xf86-video-vesa
+xorg-server
+xorg-xinit
+gvfs
+gvfs-afc
+gvfs-goa
+gvfs-google
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+libinput
+xf86-input-libinput
+xorg-font-util
+xorg-bdftopcf
+xorg-iceauth
+luit
+xorg-mkfontscale
+xorg-sessreg
+xorg-setxkbmap
+xorg-smproxy
+xorg-x11perf
+xorg-xauth
+xorg-xbacklight
+xorg-xcmsdb
+xorg-xcursorgen
+xorg-xdpyinfo
+xorg-xdriinfo
+xorg-xev
+xorg-xgamma
+xorg-xhost
+xorg-xinput
+xorg-xkbcomp
+xorg-xkbevd
+xorg-xkbutils
+xorg-xkill
+xorg-xlsatoms
+xorg-xlsclients
+xorg-xmodmap
+xorg-xpr
+xorg-xprop
+xorg-xrandr
+xorg-xrdb
+xorg-xrefresh
+xorg-xset
+xorg-xsetroot
+xorg-xvinfo
+xorg-xwd
+xorg-xwininfo
+xorg-xwud
+# earlyoom
+gufw
+ufw
+ufw-extras
+downgrade
+pacman-contrib
+pyakm
+yad
+aribb24
+
+# ===>>> GNOME install start here <<<=== #
+# rebornos-cosmic-gnome => Semi open here:
+#gnome-backgrounds
+gnome-tweaks
+qt5ct
+polkit-gnome
+# Removed due to incompatibility
+# pamac-aur
+# Instead of pamac-aur we add bauh:
+bauh
+#
+# Themes
+papirus-icon-theme
+capitaine-cursors
+#arc-gtk-theme
+yaru-gnome-shell-theme
+yaru-gtk-theme
+yaru-icon-theme
+yaru-session
+yaru-sound-theme
+#
+# Continue...
+# In our repo:
+chrome-gnome-shell
+#
+gnome-shell-extensions
+gedit-plugins
+gucharmap
+libgit2-glib
+python-nautilus
+gnome-firmware
+gdm
+gnome-shell
+gnome-control-center
+nautilus
+libnautilus-extension
+gnome-system-monitor
+gnome-icon-theme-extras
+gnome-user-share
+gnome-tweaks
+gnome-themes-extra
+gnome-shell-extensions
+gnome-desktop
+gnome-terminal
+gedit
+eog
+adwaita-icon-theme
+gnome-disk-utility
+gucharmap
+gnome-menus
+gnome-keyring
+seahorse
+gnome-screenshot
+gnome-online-accounts
+gnome-session
+gnome-bluetooth
+totem
+gnome-font-viewer
+gnome-calculator
+gnome-firmware
+file-roller
+xdg-user-dirs-gtk
+gnome-logs
+unace
+lrzip
+gparted
+parted
+udftools
+mtools
+network-manager-applet
+# Needed by /airootfs/usr/bin/internet.sh :
+fping
+#
+# Extensions
+gnome-shell-extension-dash-to-panel
+gnome-shell-extension-appindicator
+
+gvfs-google
+gvfs-mtp
+gvfs-smb
+hicolor-icon-theme
+libgnome-keyring
+
+# ===>>> Accessibility <<<=== #
+orca
+onboard
+mousetweaks
+# For accessibility in conjunction with ORCA it is added:
+espeak-ng
+
+
+# ===>>> VirtualBox <<<=== #
+# virtualbox-guest-modules-arch --> It is no longer in the repository. Now present in the kernel.
+# virtualbox-guest-utils
+# xf86-input-mouse has been removed from the repositories:
+# xf86-input-mouse
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-intel
+xf86-video-dummy
+xorg-apps
+xorg-fonts
+
+
+# ===>>> VMWare <<<=== #
+open-vm-tools
+xf86-input-vmmouse
+xf86-video-vmware
+
+
+# ===>>> Scripts to aid in installing Arch Linux <<<=== #
+arch-install-scripts
+
+
+polari
+python-pysmbc
+# lightdm-webkit-theme-aether
+# sddm-config-editor-git
+# sddm-theme-gracilis-git
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+xscreensaver
+
+
+bubblewrap
+
+
+# ===>>> Firefox web browser <<<=== #
+firefox
+# firefox-adblock-plus
+# firefox-extension-privacybadger
+# firefox-extension-https-everywhere
+
+colord
+dconf-editor
+elfutils
+fwupd
+gcab
+gtkspell
+gvfs-mtp
+libgusb
+libsmbios
+libwnck3
+libyaml
+ostree
+rsync
+
+
+# ===>>> Fonts <<<=== #
+#opendesktop-fonts
+#ttf-arphic-uming
+#ttf-baekmuk
+ttf-droid
+gnu-free-fonts
+ttf-opensans
+ttf-ubuntu-font-family
+ttf-bitstream-vera
+ttf-dejavu
+ttf-liberation
+noto-fonts-cjk
+
+
+# ===>>> Linux-y things <<<=== #
+btrfs-progs
+linux-api-headers
+squashfs-tools
+iso-codes
+
+
+# ===>>> Things related to booting <<<=== #
+dmraid
+efitools
+fakeroot
+gptfdisk
+grub
+hwdetect
+hwinfo
+ntp
+os-prober
+
+# ===>>> Random group <<<=== #
+expect
+git
+
+
+# ===>>> Network packages <<<=== #
+b43-firmware
+broadcom-wl-dkms
+# dnsutils change to bind:
+# dnsutils
+bind
+netctl
+nss-mdns
+
+
+# ===>>> Now... <<<=== #
+xf86-video-nouveau
+
+# ===>>> NVIDIA <<<=== #
+nvidia
+nvidia-settings
+
+# ===>>> archiso needed <<<=== #
+syslinux
+# ipconfig:
+net-tools
+nbd
+mkinitcpio-nfs-utils
+archiso
+mkinitcpio-archiso
+edk2-shell
+amd-ucode
+pv
+
+# ===>>> extras <<<=== #
+lsb-release
+libpwquality
+cmake
+qt5-svg
+qt5-webengine
+yaml-cpp
+extra-cmake-modules
+boost

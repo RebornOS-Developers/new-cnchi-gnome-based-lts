@@ -1,0 +1,8 @@
+root:x:0:brltty,root
+network:x:90:rebornos
+wheel:x:998:rebornos
+audio:x:995:brltty,rebornos
+disk:x:994:rebornos
+optical:x:990:rebornos
+autologin:x:962:rebornos
+nopasswdlogin:x:961:rebornos
