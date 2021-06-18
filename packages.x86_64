@@ -102,7 +102,42 @@ base
 base-devel
 
 # ===>>> Cosmic packages <<<=== #
-rebornos-cosmic-common
+# rebornos-cosmic-common withouth bauh (open here):
+acpid
+dnsmasq
+b43-fwcutter
+bash-completion
+crda
+bind
+dosfstools
+haveged
+gzip
+intel-ucode
+mlocate
+modemmanager
+net-tools
+networkmanager
+ntfs-3g
+openssh
+pkgfile
+reflector
+sudo
+terminus-font
+tlp
+tar
+unzip
+unrar
+p7zip
+usb_modeswitch
+wget
+whois
+wireless_tools
+fwupd
+arch-install-scripts
+rebornos-os-release
+inxi
+rebornos-mirrorlist
+rebornos-update-rmirrors
 rebornos-cosmic-full-base
 
 # ===>>> rebornos-cosmic-graphic => Semi open here <<<=== #
