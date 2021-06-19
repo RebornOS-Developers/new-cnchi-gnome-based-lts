@@ -1,5 +1,11 @@
 # new-cnchi-gnome-based-lts (ISO creation)
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+<br><br>
+<p align="center">
+<img src="https://raw.githubusercontent.com/RebornOS-Developers/new-cnchi-gnome-based/main/Screenshot-20210618-1.png">
+</p>
+
 Process to build the ISO:
 
 **1.** Clone this repo:
