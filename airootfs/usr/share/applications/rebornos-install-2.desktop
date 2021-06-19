@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=Install the operating system to disk
+Comment[pl]=Zainstaluj system RebornOS
+Comment[sk]=Nainštaluje operačný systém na disk
+Exec=sudo /usr/bin/cnchi-start-2.sh
+GenericName=RebornOS Installer
+Icon=/usr/share/pixmaps/rebornos-icon-new-g.png
+Name=RebornOS Installer
+Name[en_US]=RebornOS Installer
+Name[pl]=Zainstaluj RebornOS
+Name[sk]=Inštalovať RebornOS
+Terminal=True
+Type=Application
+Categories=System;
