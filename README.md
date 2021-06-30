@@ -6,7 +6,7 @@
 <img src="https://raw.githubusercontent.com/RebornOS-Developers/new-cnchi-gnome-based-lts/main/Screenshot-LTS-20210618-1.png">
 </p>
 
-Dependencies:
+Dependencies required to create the ISO:
 
 ```
 sudo pacman -S archiso mkinitcpio-archiso mkinitcpio-nfs-utils squashfs-tools git
