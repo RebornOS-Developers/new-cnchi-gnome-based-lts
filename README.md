@@ -3,7 +3,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 <br><br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/RebornOS-Developers/new-cnchi-gnome-based-lts/main/Screenshot-LTS-20210630-1.png">
+<img src="https://raw.githubusercontent.com/RebornOS-Developers/new-cnchi-gnome-based-lts/main/Screenshot-LTS-20210701-1.png">
 </p>
 
 Dependencies required to create the ISO:
