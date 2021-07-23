@@ -1,4 +1,4 @@
-# --> RebornOS Mirrorlist from 20210511-1 <-- #
+# --> RebornOS Mirrorlist from 20210720-1 <-- #
 
 # RebornOS repo: repo.rebornos.org
 Server = https://repo.rebornos.org/RebornOS
@@ -108,3 +108,9 @@ Server = https://kent.dl.sourceforge.net/sourceforge/rebornos/r/RebornOS/
 # Sourceforge 20
 Server = https://jaist.dl.sourceforge.net/sourceforge/rebornos/r/RebornOS/
 ##### End Sourceforge mirrors #####
+
+# mirror.arctic.lol (Finland)
+Server = http://mirror.arctic.lol/RebornMirror/
+
+# RebornOS mirror.clarkson.edu
+Server = https://mirror.clarkson.edu/RebornOS/
