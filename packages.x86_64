@@ -236,9 +236,17 @@ polkit-gnome
 # Instead of pamac-aur we add bauh...
 # Removed as unnecessary in the installer
 # bauh
-# Welcome screen added:
+
+# RebornOS Extras
+# Welcome ISO screen
 rebornos-welcome
 #
+# RebornOS rate mirrors:
+rate-mirrors
+refresh-mirrors-rebornos
+
+
+
 # Themes
 papirus-icon-theme
 #capitaine-cursors
@@ -454,4 +462,4 @@ boost
 
 # ===>>> cnchi <<<=== #
 # Now it loads from the ISO...
-#new-cnchi
+#new-cnchi-lts

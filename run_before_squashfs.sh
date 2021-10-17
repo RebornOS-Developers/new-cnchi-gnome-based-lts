@@ -15,9 +15,6 @@ arch_chroot(){
 do_merge(){
 
 arch_chroot "
-wget https://repo.rebornos.org/RebornOS/sources/cnchi/new-cnchi-lts-20210701-1-any.pkg.tar.zst
-tar -xvf new-cnchi-lts-20210701-1-any.pkg.tar.zst
-rm new-cnchi-lts-20210701-1-any.pkg.tar.zst
 wget https://repo.rebornos.org/RebornOS/sources/pacman/packagekit-1.1.13-1-x86_64.pkg.tar.zst
 tar -xvf packagekit-1.1.13-1-x86_64.pkg.tar.zst
 rm packagekit-1.1.13-1-x86_64.pkg.tar.zst
@@ -35,7 +32,8 @@ rm /etc/pacman.conf
 cp pacman.conf /etc/pacman.conf
 rm pacman.conf
 rm /home/rebornos/.bashrc
-cp /usr/share/cnchi/bashrc /home/rebornos/.bashrc
+cp /home/rebornos/Downloads/bashrc /home/rebornos/.bashrc
+rm /home/rebornos/Downloads/bashrc
 locale-gen
 "
 }
