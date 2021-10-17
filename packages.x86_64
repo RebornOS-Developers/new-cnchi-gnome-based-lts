@@ -241,13 +241,13 @@ rebornos-welcome
 #
 # Themes
 papirus-icon-theme
-capitaine-cursors
+#capitaine-cursors
 #arc-gtk-theme
-yaru-gnome-shell-theme
-yaru-gtk-theme
-yaru-icon-theme
-yaru-session
-yaru-sound-theme
+#yaru-gnome-shell-theme
+#yaru-gtk-theme
+#yaru-icon-theme
+#yaru-session
+#yaru-sound-theme
 #
 # Continue...
 # In our repo:
@@ -451,3 +451,7 @@ qt5-webengine
 yaml-cpp
 extra-cmake-modules
 boost
+
+# ===>>> cnchi <<<=== #
+# Now it loads from the ISO...
+#new-cnchi
