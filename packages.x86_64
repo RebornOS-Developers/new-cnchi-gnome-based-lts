@@ -32,6 +32,8 @@ webkit2gtk
 python-whither
 python-lxml
 python-mock
+# It is added because it is no longer available in python 3
+python-sgmllib3k
 
 # ===>>> Bluetooth <<<=== #
 bluez
