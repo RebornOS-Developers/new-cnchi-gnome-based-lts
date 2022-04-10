@@ -245,7 +245,8 @@ rebornos-welcome
 #
 # RebornOS rate mirrors:
 rate-mirrors
-refresh-mirrors-rebornos
+refresh-mirrors
+# refresh-mirrors-rebornos
 
 
 
